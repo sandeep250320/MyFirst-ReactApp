@@ -4,23 +4,23 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
-    height:65vh;
+    height:70vh;
 }
 .child{
 flex-direction: column;
-    height:60vh;
- display: flex;
-    border-radius: 8px solid black;
+height:70vh;
+display: flex;
+flex:auto;
+
 }
 .internal{
-    
     flex:auto;
     height:20vh;
    
 }
 img{
     height:45vh;
-    
+    width:50vh;
     border-radius: 8px;
 }
 p{
