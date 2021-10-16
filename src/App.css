@@ -3,25 +3,24 @@
     border-radius: 8px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height:65vh;
-    width:100vh;
 }
 .child{
-    flex-direction: row;
+flex-direction: column;
     height:60vh;
-    width:60vh;
+ display: flex;
     border-radius: 8px solid black;
 }
 .internal{
-    flex-direction: column;
+    
     flex:auto;
     height:20vh;
-    width:60vh;
+   
 }
 img{
     height:45vh;
-    width:50vh;
+    
     border-radius: 8px;
 }
 p{
