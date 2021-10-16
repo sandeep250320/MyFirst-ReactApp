@@ -12,7 +12,7 @@ function App(props){
     <div className="internal">
         <span className="info"> {props.info}</span>
         <h2 className="sname">{props.sname}</h2>
-        <a href={props.link} target="_blank" rel="noreferrer">
+        <a href={props.link} target="_blank" rel="noreferrer" title="Watch  Video">
         <button>Watch now</button></a>
     </div>
 
