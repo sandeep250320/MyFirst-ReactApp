@@ -1,10 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
 import  './App.css';
 
 function App(props){
 
     return(
         <>
+        
 <center><div ClassName="parent"> 
 <div className="child">
 <img src={props.imgsrc} alt="img"/>
