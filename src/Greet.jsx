@@ -1,4 +1,3 @@
-import react from "react";
 function Greet() {
   let currdat = new Date();
   currdat = currdat.getHours();
