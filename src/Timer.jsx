@@ -13,7 +13,7 @@ function Timer(){
        return(
        <>
        
-       <center><h1 >{ctime} </h1>
+       <center><h1 >Time :- "  {ctime}  "</h1>
         </center>
         </>
         );

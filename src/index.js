@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App.js';
 import Sdata from './Sdata.jsx';
 import Timer from './Timer.jsx';
+import Greet from './Greet.jsx';
 
 function ncard(val){
     return(
@@ -17,7 +18,9 @@ function ncard(val){
 
 ReactDOM.render(
     <>
-    <Timer/>,
+    <Greet/>
+    <hr/>
+    <Timer/>
     {Sdata.map(ncard)}
     </> ,
     document.getElementById("root")
