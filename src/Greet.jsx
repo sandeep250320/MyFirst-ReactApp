@@ -24,7 +24,7 @@ function Greet() {
     <>
     <p>
       <h1>
-        Hello Sir ,<span style={style1}> {greeting}! </span>
+        Hii ,<span style={style1}> {greeting}! </span>
       </h1>
     </p>
 
