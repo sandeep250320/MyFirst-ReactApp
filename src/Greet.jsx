@@ -18,7 +18,8 @@ function Greet() {
   } else if(currdat > 19 && currdat <= 23) {
     greeting = "Good Night";
     style1.color = "purple";
-  }
+  }else
+  {greeting = "";}
 
   return (
     <>
