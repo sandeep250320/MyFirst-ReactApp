@@ -6,7 +6,7 @@ function Greet() {
 
   const style1 = {};
 
-  if (currdat >= 1 && currdat < 11) {
+  if (currdat >= 0 && currdat < 11) {
     greeting = "Good Morning";
     style1.color = "green";
   } else if (currdat > 11 && currdat <= 15) {
@@ -15,7 +15,7 @@ function Greet() {
   } else if (currdat > 15 && currdat <= 19) {
     greeting = "Good Evening";
     style1.color = "skyblue";
-  } else {
+  } else if(currdat > 19 && currdat <= 23) {
     greeting = "Good Night";
     style1.color = "purple";
   }
